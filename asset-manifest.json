@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CookingAlarm/static/css/main.9bc4104c.css",
+    "main.js": "/CookingAlarm/static/js/main.ddb3ae0e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/CookingAlarm/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/CookingAlarm/index.html",
+    "main.9bc4104c.css.map": "/CookingAlarm/static/css/main.9bc4104c.css.map",
+    "main.ddb3ae0e.js.map": "/CookingAlarm/static/js/main.ddb3ae0e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/CookingAlarm/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bc4104c.css",
+    "static/js/main.ddb3ae0e.js"
+  ]
+}
