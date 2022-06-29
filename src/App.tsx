@@ -51,9 +51,9 @@ export default class App extends React.Component<MyProps, MyState> {
   //any time input changes, sends new input into the state as betaAlarmTime
   setAlarmTime(event: any) {
     event.preventDefault();
-    console.log(event.target.value + ':00');
+    console.log(event.target.value);
     this.setState({
-      betaAlarmTime: event.target.value + ':00'
+      betaAlarmTime: event.target.value
     });
     console.log("Alarm time: " + this.state.betaAlarmTime)
   }
@@ -93,7 +93,7 @@ export default class App extends React.Component<MyProps, MyState> {
         <h2>Time: {this.state.currentTime}</h2>
         <h2>{this.state.alarmMessage}</h2>
         <form>
-          <Input type="time" onChange={this.setAlarmTime.bind(this)}></Input>
+          <input type="time" step="1" onChange={this.setAlarmTime.bind(this)}></input>
         </form>
         <Button variant="outlined" type="button" onClick={this.setRealAlarm.bind(this)}> Start </Button>
         <Button variant="outlined" type="button" onClick={this.clearAlarm.bind(this)}> Reset </Button>

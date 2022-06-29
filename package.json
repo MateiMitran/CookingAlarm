@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://mateimitran.github.io/CookingAlarmAssignment/",
+  "homepage": "https://mateimitran.github.io/CookingAlarm/",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.9.3",
